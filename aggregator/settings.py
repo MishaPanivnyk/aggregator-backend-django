@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-f@^rt==$pnih9mh-%_(+8qtx_^4+klhi_1=ri#5%kzg8rx@_q@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '0.0.0.0']
+ALLOWED_HOSTS = ['https://aggregator-backend-django.onrender.com', '0.0.0.0']
 
 
 # Application definition
