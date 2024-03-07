@@ -1,0 +1,7 @@
+services:
+  - type: web
+    plan: free
+    name: aggregator-backend-django
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "python -m gunicorn aggregator-backend-django.asgi:application -k uvicorn.workers.UvicornWorker"
